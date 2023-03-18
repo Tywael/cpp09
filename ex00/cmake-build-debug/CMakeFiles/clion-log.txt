@@ -1,0 +1,4 @@
+/home/tywael/install/clion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/tywael/install/clion-2022.2.4/bin/ninja/linux/ninja -G Ninja -S /home/tywael/CLionProjects/cpp09/ex00 -B /home/tywael/CLionProjects/cpp09/ex00/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tywael/CLionProjects/cpp09/ex00/cmake-build-debug
