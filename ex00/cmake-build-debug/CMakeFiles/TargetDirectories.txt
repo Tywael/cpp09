@@ -1,3 +1,0 @@
-/home/tywael/CLionProjects/cpp09/ex00/cmake-build-debug/CMakeFiles/ex00.dir
-/home/tywael/CLionProjects/cpp09/ex00/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/tywael/CLionProjects/cpp09/ex00/cmake-build-debug/CMakeFiles/rebuild_cache.dir

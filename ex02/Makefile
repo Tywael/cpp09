@@ -1,8 +1,8 @@
 CC			= c++ -Wall -Wextra -Werror -std=c++98 -pedantic
 RM			= rm -rf
 MKDIR		= mkdir -p
-NAME		= ./btc
-NAME_SHORT	= btc
+NAME		= ./PmergeMe
+NAME_SHORT	= PmergeMe
 
 INCS_DIR	= ./inc/
 MAIN_INC	= -I$(INCS_DIR)
@@ -29,11 +29,11 @@ $(BUILDDIR):
 
 $(BUILDDIR)%.o			: $(SRCS_DIR)%.cpp
 			@echo "[..] $(NAME_SHORT)... compiling $*.cpp\r\c"
-			@$(CC) -c $< -o $@
+			@$(CC) $(MAIN_INC) -c $< -o $@
 			@echo "$(_CLEAR)"
 
 $(NAME)		: $(BUILDDIR) $(OBJS)
-			@$(CC) $(OBJS) -o $(NAME)
+			@$(CC) $(OBJS) $(MAIN_INC) -o $(NAME)
 			@echo "$(_OK) $(NAME_SHORT) compiled"
 
 clean		:
